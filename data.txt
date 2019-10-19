@@ -1,1 +1,4 @@
-{"title":"Foobar", "description":"spam","post":"foobar"},
+[
+    {"description":"str.strip() removes the whitespace on the left and right side of a string. You can also strip characters other than whitespaces.",
+     "code":"> \" _Hello World_ \".strip()\n'_Hello World_'\n> \" _Hello World_ \".strip(\"_\")\n\"_Hello World_\"\n> \" _Hello World_ \".strip(\"_ \")\n'Hello World'"}
+]
