@@ -1,3 +1,4 @@
+from pprint import pprint
 import json
 
 def extract(filename):
@@ -11,4 +12,4 @@ def extract(filename):
 if __name__ == "__main__":
     results = extract(filename="data.txt")
     for result in results:
-        print(result)
+        pprint(result)
